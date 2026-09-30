@@ -70,10 +70,6 @@
       margin-inline: auto;
     }
 
-    /* =========================
-       NAVIGATION
-    ========================= */
-
     header {
       position: fixed;
       inset: 0 0 auto 0;
@@ -149,10 +145,6 @@
       color: var(--purple-dark);
       cursor: pointer;
     }
-
-    /* =========================
-       HERO
-    ========================= */
 
     .hero {
       padding: 150px 0 105px;
@@ -249,10 +241,6 @@
       border-color: var(--border);
       color: var(--text);
     }
-
-    /* =========================
-       HERO IMAGE
-    ========================= */
 
     .hero-visual {
       position: relative;
@@ -361,10 +349,6 @@
       box-shadow: 0 10px 25px rgba(39,35,49,.18);
     }
 
-    /* =========================
-       GENERAL SECTIONS
-    ========================= */
-
     section {
       padding: 92px 0;
     }
@@ -395,9 +379,6 @@
       color: var(--muted);
     }
 
-    /* =========================
-       SERVICES
-    ========================= */
 
     .services {
       background: #fff;
@@ -465,10 +446,6 @@
       margin-right: 9px;
     }
 
-    /* =========================
-       EXPECTATIONS
-    ========================= */
-
     .expect-grid {
       display: grid;
       grid-template-columns: .85fr 1.15fr;
@@ -530,10 +507,6 @@
       color: var(--purple);
       margin-right: 7px;
     }
-
-    /* =========================
-       PORTFOLIO
-    ========================= */
 
     .portfolio {
       background: #fff;
@@ -609,10 +582,6 @@
       box-shadow: 0 15px 40px rgba(70,43,117,.15);
     }
 
-    /* =========================
-       WHY ME
-    ========================= */
-
     .why-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -676,10 +645,6 @@
       box-shadow: var(--shadow);
     }
 
-    /* =========================
-       CTA
-    ========================= */
-
     .cta {
       padding-top: 35px;
     }
@@ -724,10 +689,6 @@
       position: relative;
     }
 
-    /* =========================
-       FOOTER
-    ========================= */
-
     footer {
       padding: 35px 0 45px;
     }
@@ -751,10 +712,6 @@
       font-weight: 700;
     }
 
-    /* =========================
-       ANIMATION
-    ========================= */
-
     .reveal {
       opacity: 0;
       transform: translateY(22px);
@@ -767,10 +724,6 @@
       opacity: 1;
       transform: none;
     }
-
-    /* =========================
-       TABLET
-    ========================= */
 
     @media(max-width:850px) {
 
@@ -850,11 +803,7 @@
         margin: 0 auto;
       }
     }
-
-    /* =========================
-       MOBILE
-    ========================= */
-
+    
     @media(max-width:560px) {
 
       section {
@@ -919,10 +868,6 @@
 
 <body>
 
-  <!-- =========================
-       HEADER
-  ========================= -->
-
   <header>
     <div class="container nav">
 
@@ -973,11 +918,6 @@
 
     </div>
   </header>
-
-
-  <!-- =========================
-       MAIN
-  ========================= -->
 
   <main>
 
@@ -1074,11 +1014,6 @@
 
     </section>
 
-
-    <!-- =========================
-         SERVICES
-    ========================= -->
-
     <section class="services" id="services">
 
       <div class="container">
@@ -1103,8 +1038,6 @@
 
         <div class="service-grid">
 
-
-          <!-- SERVICE 1 -->
 
           <article class="service-card reveal">
 
@@ -1201,11 +1134,6 @@
       </div>
 
     </section>
-
-
-    <!-- =========================
-         EXPECTATIONS
-    ========================= -->
 
     <section id="expectations">
 
